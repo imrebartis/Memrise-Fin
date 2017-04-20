@@ -7,21 +7,10 @@ html {
   background-size: cover;
   height: 100%;
   box-shadow: inset 0 0 100px #fff;
-  
-  /*background: -webkit-linear-gradient(#288228, #4E7D4E);
-  background: -o-linear-gradient(#288228, #4E7D4E);
-  background: -moz-linear-gradient(#288228, #4E7D4E);
-  background: linear-gradient(#288228, #4E7D4E);
-  height: 100%;*/
-  /*background: -webkit-linear-gradient(#11A3ED, #63A5E4);
-  background: -o-linear-gradient(#11A3ED, #63A5E4);
-  background: -moz-linear-gradient(#11A3ED, #63A5E4);
-  background: linear-gradient(#11A3ED, #63A5E4);*/
 }
 
 body {
   display: block;
-  /*max-width: 873px;*/
   max-width: 1200px;
   font-family: Droid Sans, Helvetica, 'Open Sans', Arial, sans-serif;
   margin: 0 auto;
@@ -79,7 +68,6 @@ section {
   background: #234E7F;
   font-weight: 900;
   font-size: 2rem;
-  /*background: #215B19;*/
   color: white;
   font-family: Droid Sans, Helvetica, 'Open Sans', Arial, sans-serif;
 }
@@ -123,7 +111,6 @@ section {
 
 #words li {
     display: inline-block;
-    /*width: 280px;*/
     width: 350px;
     height: 220px;
     margin-right: 5px;
@@ -146,19 +133,6 @@ section {
     padding-top: 5rem;
     text-align: center;
 }
-
-/*.ok {
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, .9);
-  transition: all 0.5s;
-  height: 220px;
-  width: 350px;
-}*/
 
 #btc-reward {
   width: 50px;
@@ -260,80 +234,3 @@ section {
       top: 3rem;
     }
 }
-
-
-/*@media (max-width: 399px) {
-    main {
-      margin-top: -5rem;
-    }
-
-    #game-view {
-      margin-top: 2rem;
-    }
-
-    #words li {
-      width: 140px;
-    }
-
-     #game-over-img {
-    width: 70%;
-    height: 70%;
-  }
-
-  .separator, #score {
-    position: relative;
-  }
-
-  .separator {
-    margin-left: -24rem;
-  }
-
-  #score {
-    margin-top: -1.2rem;
-    margin-left: 23rem;
-  }
-}*/
-
-
-/*
-@media (max-width: 375px) {
-
-
-
-  .title {
-    padding-top: .8rem;
-  }
-
-  .word h2, .title {
-    font-size: 1.2rem;
-  }
-
-  #game-over-img {
-    width: 70%;
-    height: 70%;
-  }
-
-   html {
-      min-width: 375px;
-    }
-     #words li {
-      width: 140px;
-    }
-}
-
- @media (max-width: 340px) {
-  #description p {
-    font-size: 1rem;
-    
-    width: 14rem;
-  }
- }
-
-  @media (max-width: 370px) {
-  #description p {
-    font-size: 1.1rem;
-    margin-left: -.4rem;
-    width: 16rem;
-  }
- }
-*/
