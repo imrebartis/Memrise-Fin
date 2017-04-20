@@ -90,7 +90,7 @@ section {
   left: 4rem;
 }
 
-#clock-box, #game-view, #game-over-img, #score, #btc-reward, audio  {
+#clock-box, #game-view, #game-over-img, #score, #score-game-over, #btc-reward, #restart, audio  {
   display: none;
 }
 
@@ -166,6 +166,16 @@ section {
   position: absolute;
 }
 
+#restart {
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 15px;
+  background: #234E7F;
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
+  font-family: Droid Sans, Helvetica, 'Open Sans', Arial, sans-serif;
+}
   /*-----------MEDIA QUERIES------*/
 
 
@@ -195,22 +205,6 @@ section {
   }
  }
 
- @media (max-width: 370px) {
-  #description p {
-    font-size: 1.1rem;
-    margin-left: -.4rem;
-    width: 16rem;
-  }
- }
-
- @media (max-width: 340px) {
-  #description p {
-    font-size: 1rem;
-    
-    width: 14rem;
-  }
- }
-
   @media (max-width: 725px) and (min-width: 585px) {
 
     #words li {
@@ -235,29 +229,6 @@ section {
   }
 }
 
-@media (max-width: 484px) and (min-width: 400px) {
-
-    #words li {
-      width: 180px;
-    }
-     #game-over-img {
-    width: 60%;
-    height: 60%;
-  }
-}
-
-@media (max-width: 399px) and (min-width: 310px) {
-
-    #words li {
-      width: 140px;
-    }
-
-     #game-over-img {
-    width: 70%;
-    height: 70%;
-  }
-}
-
 @media (max-width: 425px) {
 
   #score {
@@ -268,17 +239,66 @@ section {
   }
 }
 
-@media (max-width: 370px) {
-  .separator {
-    position: relative;
-    margin-top: -5rem;
-    margin-left: -16rem;
+@media (max-width: 484px) {
+
+    #words li {
+      width: 180px;
+    }
+     #game-over-img {
+    width: 60%;
+    height: 60%;
   }
+  html {
+      min-width: 406px;
+    }
+}
+
+@media (max-width: 380px) {
+
   #score {
-    position: relative;
-    margin-top: -1.3rem;
-    margin-left: 18rem;
+      left: 10%;
+      top: 3rem;
+    }
+}
+
+
+/*@media (max-width: 399px) {
+    main {
+      margin-top: -5rem;
+    }
+
+    #game-view {
+      margin-top: 2rem;
+    }
+
+    #words li {
+      width: 140px;
+    }
+
+     #game-over-img {
+    width: 70%;
+    height: 70%;
   }
+
+  .separator, #score {
+    position: relative;
+  }
+
+  .separator {
+    margin-left: -24rem;
+  }
+
+  #score {
+    margin-top: -1.2rem;
+    margin-left: 23rem;
+  }
+}*/
+
+
+/*
+@media (max-width: 375px) {
+
+
 
   .title {
     padding-top: .8rem;
@@ -294,19 +314,26 @@ section {
   }
 
    html {
-      min-width: 370px;
+      min-width: 375px;
     }
      #words li {
       width: 140px;
     }
 }
 
-@media (max-width: 309px) {
+ @media (max-width: 340px) {
+  #description p {
+    font-size: 1rem;
+    
+    width: 14rem;
+  }
+ }
 
-    html {
-      min-width: 309px;
-    }
-     #words li {
-      width: 140px;
-    }
-}
+  @media (max-width: 370px) {
+  #description p {
+    font-size: 1.1rem;
+    margin-left: -.4rem;
+    width: 16rem;
+  }
+ }
+*/

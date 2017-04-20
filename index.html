@@ -25,9 +25,12 @@
                 <div id="description"><p>The Ultimate Game to Help You Revise Your Sports Vocabulary in Finnish<p></div>
                 <button id="start" class="btn">Start Revision</button>
             </div>
-            <div class="separator" id="clock-box"> <span id="clock">30</span> seconds left</div>
-            <div class="game-over-div"><img id="game-over-img" src="images/gameover.png" alt=""></div>
+            <div class="separator" id="clock-box"> <p><span id="clock">30</span> seconds left</p></div>
+            <div class="game-over-div" id="game-over-div"><img id="game-over-img" src="images/gameover.png" alt=""></div>
             <article id="score">
+                    <p class="points"><span id="number-of-points">0</span>&nbsp;points</p>
+             </article>
+              <article id="score-game-over">
                     <p class="points"><span id="number-of-points">0</span>&nbsp;points</p>
              </article>
              <div id="game-view">
@@ -70,6 +73,7 @@
             </section>
             <img src="./images/thumbs-up.svg" id="btc-reward">
             <audio id="sound" src="audios/glass.mp3">Your browser does not support the <code>audio</code> element.</audio>
+            <button id="restart" class="btn">Restart</button>
           </main>
           <script src="http://code.jquery.com/jquery-3.2.1.js"
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
