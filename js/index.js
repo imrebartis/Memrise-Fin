@@ -78,12 +78,12 @@ var MemriseGame = function() {
 }
 
 
-MemriseGame.prototype._getRandomInt = function(words) {
-  return Math.floor(Math.random() * words.length)
-}
+// MemriseGame.prototype._getRandomInt = function(words) {
+//   return Math.floor(Math.random() * words.length)
+// }
 
 MemriseGame.prototype.pickTitle = function(words) {
- var a = MemriseGame.prototype._getRandomInt(words);
+ // var a = MemriseGame.prototype._getRandomInt(words);
 
  words.sort(function(){return Math.round(Math.random());});
  return words.pop();
