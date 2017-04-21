@@ -2,25 +2,24 @@
 
 1. create words array, with key/value pairs
 
-2. create cards array like:
-curly brackets,
-square brackets,
-dash,
-quotation marks
+2. create cards array
 
 3. show word randomly (loop as many times as words array's length)
 
-4. show 4 cards, one containing the value of the word shown (e.g. for sulkapallo badminton):
+4. show 4 cards, one containing the value of the word shown (e.g. for sulkapallo badminton).
 
 ONE OF THE 4 CARDS HAS TO CONTAIN THE VALUE OF THE WORD
 
-5. checkAnswer (if clicked word correct, number of points increases 25 per word and next word is shown, if incorrect, number of points stays the same and next word is shown)
+5. checkAnswer (if clicked word correct, number of points increases 25 per word and next word is shown, if incorrect, number of points decreases and next word is shown)
 
 6. save number of points for next round;
 
 7. go to next round after having clicked a card;
 
 6. set timer for the game
+
+7. add a restart button
+
 */
 
 var MemriseGame = function() {
